@@ -117,6 +117,8 @@ public class ChooseAreaFragment extends Fragment {
     }
 
     private void queryCities() {
+        titleText.setText("市");
+        backButton.setVisibility(View.VISIBLE);
     }
 
     private void queryCounties() {
